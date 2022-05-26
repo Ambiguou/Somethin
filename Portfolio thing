@@ -1,0 +1,444 @@
+import random
+a=input("GENSHIN WISH SIMULATOR (Standard Banner): how much wish ")
+wish=random.randint(1,90)
+#x is 4 star, y is 5 star
+n=1
+x=0
+y=0
+primo=0
+fourstarcount=0
+fivestarcount=0
+while a>0:
+    if a=="Qiqi" or a=="qiqi" or a=="chibi":
+        print("You got Qiqi best chibi yeeeeeee")
+        break
+    if wish == 90:
+        print("YOU GOT A 5 STAR  notice ------------->")
+        x=x+1
+        y=0
+        fivestarcount = int(fivestarcount) + int(1)
+        fivestar=random.randint(1,20)
+        if fivestar == 1:{
+            print("You got Diluc\n")
+        }
+        if fivestar == 2:{
+            print("You got Diluc\n")
+        }
+        if fivestar == 3:{
+            print("You got Jean\n")
+        }
+        if fivestar == 4:{
+            print("You got Jean\n")
+        }
+        if fivestar == 5:{
+            print("You got Qiqi best chibi\n")
+        }
+        if fivestar == 6:{
+            print("You got Qiqi best chibi\n")
+        }
+        if fivestar == 7:{
+            print("You got Mona\n")
+        }
+        if fivestar == 8:{
+            print("You got Mona\n")
+        }
+        if fivestar == 9:{
+            print("You got Keqing\n")
+        }
+        if fivestar == 10:{
+            print("You got Keqing\n")
+        }
+        if fivestar == 11:{
+            print("You got a Skyward Harp\n")
+        }
+        if fivestar == 12:{
+            print("You got a Skyward Spine\n")
+        }
+        if fivestar == 13:{
+            print("You got a Skyward Blade\n")
+        }
+        if fivestar == 14:{
+            print("You got a Skyward Pride\n")
+        }
+        if fivestar == 15:{
+            print("You got a Skyward Atlas\n")
+        }
+        if fivestar == 16:{
+            print("You got a Primordial Jade Winged Spear\n")
+        }
+        if fivestar == 17:{
+            print("You got a Lost Prayer to Sacred Winds\n")
+        }
+        if fivestar == 18:{
+            print("You got a Amos' Bow\n")
+        }
+        if fivestar == 19:{
+            print("You got a Wolf's Gravestone\n")
+        }
+        if fivestar == 20:{
+            print("You got a Aquila Favonia\n")
+        }
+    elif wish >=11 and wish <= 89:
+        print("you got a 3 star")
+        x=x+1
+        y=y+1
+        threestar=random.randint(1,13)
+        if threestar == 1:{
+            print("You got a Cold Steel\n")
+        }
+        if threestar == 2:{
+            print("You got a Black Tassel\n")
+        }
+        if threestar == 3:{
+            print("You got a Harbinger of Dawn\n")
+        }
+        if threestar == 4:{
+            print("You got a Slingshot\n")
+        }
+        if threestar == 5:{
+            print("You got a Sharpshooter's Oath\n")
+        }
+        if threestar == 6:{
+            print("You got a Raven Bow\n")
+        }
+        if threestar == 7:{
+            print("You got a Enerald Orb\n")
+        }
+        if threestar == 8:{
+            print("You got a Thrilling Tales of Dragon Slayers\n")
+        }
+        if threestar == 9:{
+            print("You got a Magic Guide\n")
+        }
+        if threestar == 10:{
+            print("You got a Debate Club\n")
+        }
+        if threestar == 11:{
+            print("You got a Bloodtainted Greatsword\n")
+        }
+        if threestar == 12:{
+            print("You got a Ferrous Shadow\n")
+        }
+        if threestar == 13:{
+            print("You got a Skyrider Sword\n")
+        }
+    elif wish <= 10:
+        print("you got a 4 star notice")
+        x=0
+        y=y+1
+        fourstarcount = int(fourstarcount) + int(1)
+        fourstar=random.randint(1,38)
+        if fourstar == 1:{
+            print("You got Yanfei\n")
+        }
+        if fourstar == 2:{
+            print("You got Chongyun\n")
+        }
+        if fourstar == 3:{
+            print("You got Sayu\n")
+        }
+        if fourstar == 4:{
+            print("You got Sara\n")
+        }
+        if fourstar == 5:{
+            print("You got Bennet\n")
+        }
+        if fourstar == 6:{
+            print("You got Razor\n")
+        }
+        if fourstar == 7:{
+            print("You got a Favonius Greatsword\n")
+        }
+        if fourstar == 8:{
+            print("You got a Favonius Sword\n")
+        }
+        if fourstar == 9:{
+            print("You got a Favonius Warbow\n")
+        }
+        if fourstar == 10:{
+            print("You got a Favonius Codex\n")
+        }
+        if fourstar == 11:{
+            print("You got a Favonius Lance\n")
+        }
+        if fourstar == 12:{
+            print("You got a Sacrificial Bow\n")
+        }
+        if fourstar == 13:{
+            print("You got a Sacrificial Sword\n")
+        }
+        if fourstar == 14:{
+            print("You got a Sacrificial Claymore\n")
+        }
+        if fourstar == 15:{
+            print("You got a Sacrificial Fragments\n")
+        }
+        if fourstar == 16:{
+            print("You got Sucrose\n")
+        }
+        if fourstar == 17:{
+            print("You got Rosaria\n")
+        }
+        if fourstar == 18:{
+            print("You got Diona\n")
+        }
+        if fourstar == 19:{
+            print("You got Kaeya\n")
+        }
+        if fourstar == 20:{
+            print("You got Fischl\n")
+        }
+        if fourstar == 21:{
+            print("You got Beidou\n")
+        }
+        if fourstar == 22:{
+            print("You got Lisa\n")
+        }
+        if fourstar == 23:{
+            print("You got Noelle\n")
+        }
+        if fourstar == 24:{
+            print("You got Ningguang\n")
+        }
+        if fourstar == 25:{
+            print("You got Xingqiu\n")
+        }
+        if fourstar == 26:{
+            print("You got Barbara\n")
+        }
+        if fourstar == 27:{
+            print("You got Xinyan\n")
+        }
+        if fourstar == 28:{
+            print("You got Xiangling\n")
+        }
+        if fourstar == 29:{
+            print("You got Amber\n")
+        }
+        if fourstar == 30:{
+            print("You got a The Stringless\n")
+        }
+        if fourstar == 31:{
+            print("You got a Rust\n")
+        }
+        if fourstar == 32:{
+            print("You got a The Widsith\n")
+        }
+        if fourstar == 33:{
+            print("You got a Eye of Perception\n")
+        }
+        if fourstar == 34:{
+            print("You got a The Bell\n")
+        }
+        if fourstar == 35:{
+            print("You got a Rainslasher\n")
+        }
+        if fourstar == 36:{
+            print("You got a Dragon's Bane\n")
+        }
+        if fourstar == 37:{
+            print("You got a The Flute\n")
+        }
+        if fourstar == 38:{
+            print("You got a Lion's Roar\n")
+        }
+
+    if 89<y<91:
+        print("you got a 5 star pity notice ----------->")
+        y=0
+        fivestarcount = int(fivestarcount) + int(1)
+        fivestar=random.randint(1,20)
+        if fivestar == 1:{
+            print("You got Diluc\n")
+        }
+        if fivestar == 2:{
+            print("You got Diluc\n")
+        }
+        if fivestar == 3:{
+            print("You got Jean\n")
+        }
+        if fivestar == 4:{
+            print("You got Jean\n")
+        }
+        if fivestar == 5:{
+            print("You got Qiqi best chibi\n")
+        }
+        if fivestar == 6:{
+            print("You got Qiqi best chibi\n")
+        }
+        if fivestar == 7:{
+            print("You got Mona\n")
+        }
+        if fivestar == 8:{
+            print("You got Mona\n")
+        }
+        if fivestar == 9:{
+            print("You got Keqing\n")
+        }
+        if fivestar == 10:{
+            print("You got Keqing\n")
+        }
+        if fivestar == 11:{
+            print("You got a Skyward Harp\n")
+        }
+        if fivestar == 12:{
+            print("You got a Skyward Spine\n")
+        }
+        if fivestar == 13:{
+            print("You got a Skyward Blade\n")
+        }
+        if fivestar == 14:{
+            print("You got a Skyward Pride\n")
+        }
+        if fivestar == 15:{
+            print("You got a Skyward Atlas\n")
+        }
+        if fivestar == 16:{
+            print("You got a Primordial Jade Winged Spear\n")
+        }
+        if fivestar == 17:{
+            print("You got a Lost Prayer to Sacred Winds\n")
+        }
+        if fivestar == 18:{
+            print("You got a Amos' Bow\n")
+        }
+        if fivestar == 19:{
+            print("You got a Wolf's Gravestone\n")
+        }
+        if fivestar == 20:{
+            print("You got a Aquila Favonia\n")
+        }
+    if 9<x<11:
+        print("You got a 4 star pity")
+        x=0
+        fourstarcount = int(fourstarcount) + int(1)
+        fourstar=random.randint(1,38)
+        if fourstar == 1:{
+            print("You got Yanfei\n")
+        }
+        if fourstar == 2:{
+            print("You got Chongyun\n")
+        }
+        if fourstar == 3:{
+            print("You got Sayu\n")
+        }
+        if fourstar == 4:{
+            print("You got Sara\n")
+        }
+        if fourstar == 5:{
+            print("You got Bennet\n")
+        }
+        if fourstar == 6:{
+            print("You got Razor\n")
+        }
+        if fourstar == 7:{
+            print("You got a Favonius Greatsword\n")
+        }
+        if fourstar == 8:{
+            print("You got a Favonius Sword\n")
+        }
+        if fourstar == 9:{
+            print("You got a Favonius Warbow\n")
+        }
+        if fourstar == 10:{
+            print("You got a Favonius Codex\n")
+        }
+        if fourstar == 11:{
+            print("You got a Favonius lance\n")
+        }
+        if fourstar == 12:{
+            print("You got a Sacrificial Bow\n")
+        }
+        if fourstar == 13:{
+            print("You got a Sacrificial Sword\n")
+        }
+        if fourstar == 14:{
+            print("You got a Sacrificial Claymore\n")
+        }
+        if fourstar == 15:{
+            print("You got a Sacrificial Fragments\n")
+        }
+        if fourstar == 16:{
+            print("You got Sucrose\n")
+        }
+        if fourstar == 17:{
+            print("You got Rosaria\n")
+        }
+        if fourstar == 18:{
+            print("You got Diona\n")
+        }
+        if fourstar == 19:{
+            print("You got Kaeya\n")
+        }
+        if fourstar == 20:{
+            print("You got Fischl\n")
+        }
+        if fourstar == 21:{
+            print("You got Beidou\n")
+        }
+        if fourstar == 22:{
+            print("You got Lisa\n")
+        }
+        if fourstar == 23:{
+            print("You got Noelle\n")
+        }
+        if fourstar == 24:{
+            print("You got Ningguang\n")
+        }
+        if fourstar == 25:{
+            print("You got Xingqiu\n")
+        }
+        if fourstar == 26:{
+            print("You got Barbara\n")
+        }
+        if fourstar == 27:{
+            print("You got Xinyan\n")
+        }
+        if fourstar == 28:{
+            print("You got Xiangling\n")
+        }
+        if fourstar == 29:{
+            print("You got Amber\n")
+        }
+        if fourstar == 30:{
+            print("You got a The Stringless\n")
+        }
+        if fourstar == 31:{
+            print("You got a Rust\n")
+        }
+        if fourstar == 32:{
+            print("You got a The Widsith\n")
+        }
+        if fourstar == 31:{
+            print("You got a Rust\n")
+        }
+        if fourstar == 32:{
+            print("You got a The Widsith\n")
+        }
+        if fourstar == 33:{
+            print("You got a Eye of Perception\n")
+        }
+        if fourstar == 34:{
+            print("You got a The Bell\n")
+        }
+        if fourstar == 35:{
+            print("You got a Rainslasher\n")
+        }
+        if fourstar == 36:{
+            print("You got a Dragon's Bane\n")
+        }
+        if fourstar == 37:{
+            print("You got a The Flute\n")
+        }
+        if fourstar == 38:{
+            print("You got a Lion's Roar\n")
+        }
+    primo=primo+160
+    wish=random.randint(1,90)
+    a = int(a)-int(1)
+print("4 star count")
+print(str(fourstarcount)+"\n")
+print("5 star count")
+print(str(fivestarcount)+"\n")
+print("Primogem count")
+print(str(primo)+"\n")
